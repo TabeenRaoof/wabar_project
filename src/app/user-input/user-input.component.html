@@ -1,0 +1,35 @@
+<form (ngSubmit)="onSubmit()">
+    <div class="input-group">
+        <p>
+            <label for="target">Target Company</label>
+            <input  class="stock-price" id="target" type="text" placeholder="Search..." autofocus />
+        </p>
+
+        <p class="stock-price" for="target-price"> 10 </p>
+
+        <p>
+            <label for="acquirer">Acquirer</label>
+            <input class="stock-price" id="acquirer" type="text" placeholder="Search..." list="searchresults" autofocus />
+
+        </p>
+
+        <p class="stock-price" for="aquirer-price"> 20 </p>
+
+        <p>
+            <label for="completion_date">Expected Completion Date</label>
+            <input id="completion_date" type="date" />
+        </p>
+
+        <p>
+            <label for="acq_price">Acquisition Price</label>
+            <input id="acq_price" type="number" />
+        </p>
+
+        <p>
+            <label for="acq_price">Stock Offer (if any)</label>
+            <input id="acq_price" type="number" />
+        </p>
+
+    </div>
+    <button>Calculate</button>
+</form>

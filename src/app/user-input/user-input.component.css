@@ -1,0 +1,61 @@
+form {
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  background: #264753; /*linear-gradient(180deg, #307e6c, #2b996d);*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  color: #E0E2DB;
+}
+
+.stock-price {
+  display: inline-block;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.input-group {
+  display: block;
+  width: 100%;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: ;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #E0E2DB;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: #E0E2DB;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1.4px solid #E0E2DB;
+  border-radius: 0.25rem;
+  background-color: #F26419;
+  color: #264753;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+  button:hover {
+    background-color: #E0E2DB;
+  }
